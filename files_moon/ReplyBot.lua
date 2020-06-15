@@ -267,7 +267,7 @@ send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
 if text == 'اه' then
-sendVideo(msg.chat_id_, msg.id_, 'https://t.me/wwww0ww/2')
+sendPhoto(msg.chat_id_, msg.id_, 'https://omarplo.cf/pic.jpg')
 return false
 end
 if text == 'اوف' then
