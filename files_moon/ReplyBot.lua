@@ -117,13 +117,13 @@ send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
 if text == 'احمد محمد' then
-TextReply = ' "[مطوري الحب 💞](https://t.me/ttuna)"'
-send(msg.chat_id_, msg.id_,'['..TextReply..']')
+TextReply = '[مطور السورس 🙇‍♂♥️](https://t.me/ttuna)'
+send(msg.chat_id_, msg.id_,TextReply)
 return false
 end
 if text == 'حسن مؤيد' then
-TextReply = '"[مطوري العشق 💘](https://t.me/vhhhhh)"'
-send(msg.chat_id_, msg.id_,'['..TextReply..']')
+TextReply = '[مطور السورس 🙇‍♂♥️](https://t.me/vhhhhh)'
+send(msg.chat_id_, msg.id_,TextReply)
 return false
 end
 if text == '😳' then
