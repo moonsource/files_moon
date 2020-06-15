@@ -266,10 +266,6 @@ TextReply = 'سلامتك حبي،🦄'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
-if text == 'اه' then
-sendPhoto(msg.chat_id_, msg.id_, 'https://omarplo.cf/pic.jpg')
-return false
-end
 if text == 'اوف' then
 TextReply = 'ها يوجع 😂😂'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
