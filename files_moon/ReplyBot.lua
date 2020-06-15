@@ -266,6 +266,10 @@ TextReply = 'سلامتك حبي،🦄'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
+if text == 'اه' then
+sendVideo(msg.chat_id_, msg.id_, 'https://t.me/wwww0ww/2')
+return false
+end
 if text == 'اوف' then
 TextReply = 'ها يوجع 😂😂'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
